@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    width: 100%;
+
+    max-width: 1440px;
+    padding-top: 24px;
+    
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+
+}
+
+.navigation_link {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.navigation_social {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+}
+
+.navigation_social svg {
+    width: 64px;
+    height: 64px;
+    color: white;
+    opacity: 0.6;
+}
+
